@@ -128,10 +128,19 @@ h1 {
   display: none;
 }
 
+button {
+  width: 100px;
+  overflow-wrap: break-word;
+}
+
+li {
+  overflow-wrap: anywhere;
+}
+
 /* For Tablet */
 @media only screen and (min-width: 768px)and (max-width: 1023px) {
   .todo-app {
-    max-width: 600px;
+    max-width: 90%;
     padding: 1rem;
   }
 
@@ -152,12 +161,28 @@ h1 {
     width: 100px;
   }
 
+  .footer {
+    padding-right: 5px;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+
+  button {
+    width: 100px;
+    overflow-wrap: break-word;
+  }
+
+  li {
+    overflow-wrap: anywhere;
+  }
 }
 
 /* For Phone */
 @media only screen and (max-width : 767px) {
   .todo-app {
-    max-width: 70%;
+    max-width: 90%;
   }
 
   .todo-form {
@@ -170,4 +195,20 @@ h1 {
     margin-bottom: 10px;
   }
 
+  .footer {
+    padding-right: 5px;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+
+  button {
+    width: 100px;
+    overflow-wrap: break-word;
+  }
+
+  li {
+    overflow-wrap: anywhere;
+  }
 }

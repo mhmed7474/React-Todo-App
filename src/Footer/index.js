@@ -23,7 +23,7 @@ export default class Footer extends Component {
                 <IoLogoWhatsapp />
               </li>
             </Link>
-            <Link to="https://github.com/mhmed7474" className="links">
+            <Link to="https://github.com/mhmed7474" className="links ">
               <li>
                 <AiFillGithub />
               </li>
